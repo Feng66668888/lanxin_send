@@ -1,0 +1,53 @@
+APP:
+  CYCLE: 2400
+  NAME: XXX   
+  LOG_FILE: D:\log.txt
+  DOCS_DIR1: D:\wangml
+  BAK_DIR1: D:\wangml-bak\
+  DOCS_DIR2: D:\wangml
+  BAK_DIR2: D:\wangml-bak\
+  DOWNLOAD_TIMEOUT: 20
+
+SOURCE:
+  HOST: 111.111.111.111
+  PORT: 21
+  PATH: /home/police/
+  USERNAME: admin
+  PASSWORD: xxxxxx
+  SAVE_DIR: D:\wangml
+
+FTP:
+  TYPE: FTP
+  HOST: 111.111.111.111
+  PORT: 21
+  PATH: /home/police/
+  USERNAME: admin
+  PASSWORD: xxxxxx
+
+LANXIN:
+  LOGO:   # 蓝信LOGO
+    image: img\lanxin2.png
+    offset: (0, 0)
+  BUTTON_DOWN:  # 文件待下载
+    image: img\button_down.bmp
+    offset: (-23, 0)
+  BUTTON_FINISH:  # 文件下载完成识别
+    image: img\button_finish.bmp
+    offset: (0, 0)
+  BUTTON_FILE:  # 文件发送图标
+    image: img\button_file.png
+    offset: (0, 0)
+  BUTTON_SEND:  # 信息发送按钮
+    image: img\button_send.bmp
+    offset: (0, 0)
+  CHANNEL_TARGET1:   # 快传助手频道
+    image: img\channel_target.png
+    #image: img\liutengshuai.png
+    offset: (0, 0)
+  CHANNEL_TARGET2:   # 快传助手频道
+    #image: img\channel_target.png
+    image: img\liutengshuai.png
+    offset: (0, 0)
+  CHANNEL_OTHER:  # 用于查询快传助手前切换的频道
+    image: img\channel_zhangjing.bmp
+    offset: (0, 0)
